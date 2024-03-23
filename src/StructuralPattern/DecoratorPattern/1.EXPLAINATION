@@ -1,0 +1,24 @@
+Decorator Pattern
+
+Lets understand the decorator pattern with an example coffee shop billing
+-->We have a coffee shop and we have two types of coffee
+1.hot coffee
+2.cold coffee
+And assume that we have three types of addons with it
+1.Chocolate
+2.Cream
+3.Extra Sugar
+and if a customer comes in the shop and asks for hot coffee with chocolate ,
+and second customer comes in the shop and asks for hot coffee with cream ,
+and third customer comes in the shop and asks for hot coffee with Extra sugar ,
+and then fourth customer comes and orders for hot coffee with chocolate and cream ,
+and then fifth customer comes and orders for hot coffee with cream and Extra sugar ,
+and then sixth customer comes and orders for hot coffee with all the 3 .
+like this the customer can order for any combinations of addons for any of the products listed in the shop
+and creating a concrete class for each combination becomes an headache and if in future if a fifth new addon like extra milk is add in coffee shop then it will be nearly impossible for the developer to add it in the existing code
+so, to avoid this problem decorator pattern was introduces
+
+Definition of decorator pattern
+-->The Decorator Pattern in Java is a structural design pattern that allows us to add new functionality to an existing object without altering its structure.
+-->This is done by wrapping the original object with a new object.
+-->understand more easily with the help of UML Diagram and Question
