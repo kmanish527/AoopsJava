@@ -17,3 +17,7 @@ By using Bridge Pattern we can vehicle workshop into two parts 1.abstraction and
 2.workshop would be implementation and all the producer , assembly workshop , etc would be part of concrete implementation
 3.vehicle would refers to workshop
 now if we add one more vehicle bus the we need to create only one child under vehicle parent class rest it will take care abstraction’s implementer at run-time
+
+-->Now refer to the UML Diagram and example code for better understanding and Bus and truck to the existing code :)
+
+HAPPY LEARNING :)

@@ -1,0 +1,10 @@
+Observer Pattern/Publish-Subscribe
+
+-->just define a one-to-one dependency so that when one object changes state, all its dependents are notified and updated automatically.
+
+Example
+-->YouTube Channel Subscription
+when ever a user subscribes a particular channel then he becomes observer of that particular channel and whenever a new vedio is uploaded then the user is automatically notified
+
+-->Notify me when ever sale takes place in flipkart
+

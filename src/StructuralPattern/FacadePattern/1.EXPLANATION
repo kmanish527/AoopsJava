@@ -1,0 +1,18 @@
+Facade Pattern
+--> This facade class encapsulates the complexity of the subsystem and provides a simpler interface that clients can interact with.
+-->Imagine a situation where you need to follow certain sequence of steps to perform a task in such situations we can use Facade pattern
+
+-->For example we have a home theatre system in home
+and to turn it on we need to follow the following steps in sequence
+1-Turn on Television
+2-Turn on Sound System
+3-Turn off Lights
+
+and to turn off Home Theatre
+1-Turn on lights
+2-turn off Television
+3-turn off sound system
+
+so, to make the user task easier we can use a single button/switch (method/function) which can perform all the steps(which can call all the methods/functions ) in sequence whenever the we pressing the single switch (or calling single method)
+
+-->for more understanding see the UML diagram and the example and add one more function turn on AC in TurnOnHomeTheatre and TurnOffHomeTheatre
