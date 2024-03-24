@@ -1,0 +1,15 @@
+Adaptor Pattern
+--> It is a simple Structural pattern which is used when we have two interface(1.Old interface 2.new interface) which are not compatible with each other, we use adaptor/wrapper to connect both of them
+
+Real life Example
+1.Imagine you have two friends, one who speaks only English and another who speaks only French. You want them to communicate with each other, but there’s a language barrier.
+You act as an adapter, translating messages between them.
+Your role allows the English speaker to convey messages to you, and you convert those messages into French for the other person.
+
+2.Now lets consider a real life applied example
+Imagine you have a old software which give only XML response but your new software can understand only JSON type of response and you want to integrate both the software together
+so, Here we can use the Adaptor pattern which converts the XML response to JSON response
+
+you might be thinking why can't we change old software so that it gives JSON response instead of using Adaptor
+You are wrong as old software are very big and contains lots of APIs and data , changing each and evey line of old software is a headache and may also lead to errors
+(XML - is a old technology and has heavy weight but JSON - is new and has light weight so it is used in new software )
