@@ -1,0 +1,19 @@
+Bridge Pattern
+-->Divides business logic or huge class into separate class hierarchies that can be developed independently.
+-->There are 2 parts in Bridge design pattern :
+   Abstraction
+   Implementation
+-->One of these hierarchies (often called the Abstraction) will get a reference to an object of the second hierarchy (Implementation).
+
+-->like for example if there is a vehicle workshop
+for bike , car and its does assembly and production
+then without Bridge pattern we would have many 4 class - 2 for bike and 2 for car
+now imagine if a vehicle bus is added then we will require two more class for bus 1-bus production and 2-bus assembly
+and for each vehicle addition the class will increase exponentially .
+so, here comes the requirement of Bridge Pattern
+
+By using Bridge Pattern we can vehicle workshop into two parts 1.abstraction and 2.implementation and 1 will refer to 2
+1.vehicle would be abstraction class and all the vehicle types like car , bike , etc would be part of Refined Abstraction
+2.workshop would be implementation and all the producer , assembly workshop , etc would be part of concrete implementation
+3.vehicle would refers to workshop
+now if we add one more vehicle bus the we need to create only one child under vehicle parent class rest it will take care abstraction’s implementer at run-time
